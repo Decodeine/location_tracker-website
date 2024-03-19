@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trackify</title>
+</head>
+
+<body>
+<div class="banner">
+  <header class="logo">
+    <p>TRACKIFY</p>
+  </header>
+  <section class="tagline">
+    <h1>Worry Less, Connect More.</h1>
+    <p>Experience peace of mind knowing your loved ones are safe while protecting your privacy</p>
+  </section>
+  <section>
+    <div class="quote-container">
+      <p class="quote">"</p>
+      <p>Trackify helps me make sure my newborn son is safe at all times. I know where he is at any given time and that really helps me relax.</p>
+      <p><strong>Segun Fayemi</strong></p>
+      <p>Father</p>
+    </div>
+  </section>
+</div>
+<div class="form">
+  <h1>Sign up</h1>
+  <p>Already have an account? <a href="">Log in</a></p>
+  <form method="post" action="">
+    <fieldset>
+      <legend>Signing up for</legend>
+      <label class="radio inline"><input id="self" name="self-others" value="self" type="radio"> Myself</label>
+      <label class="radio inline"><input id="others" name="self-others" value="others" type="radio"> Others</label>
+    </fieldset>
+    <div class="inline">
+      <label class="name">First Name <input class="short-input block" type="text" id="first-name"></label>
+    </div>
+    <div class="inline">
+      <label class="name">Last Name <input class="short-input block" type="text" id="last-name"></label>
+    </div>
+    <label class="block">Email <input class="long-input block" type="email" id="email"></label>
+    <label class="block">Password <input class="long-input block" id="password" type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+    <label class="block">Confirm Password <input class="long-input block" id="password-confirm" type="text" name="password-confirm" required /></label>
+    <input class="inline" type="checkbox" id="terms-and-conditions" required> 
+    <label for="terms-and-conditions" class="inline t-and-c">I have read Trackify's <a href="">Privacy Policy</a> and I accept the terms and condition's listed in Trackify's <a href="">Terms of Use</a></label>
+    <button type="submit">Sign Up</button>
+  </form>
+</div> 
+
+  
+  <script src="/main.js"></script>
+</body>
+
+</html>
